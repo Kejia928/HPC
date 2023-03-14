@@ -7,7 +7,8 @@
 #SBATCH --partition=teach_cpu
 #SBATCH --account=COSC028844
 #SBATCH --output d2q9-bgk.out
-#SBATCH --exclusive 
+#SBATCH --exclusive
+#SBATCh --nodelist=compute244
 
 echo Running on host `hostname`
 echo Time is `date`

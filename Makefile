@@ -2,8 +2,9 @@
 
 EXE=d2q9-bgk
 
-CC=gcc
-CFLAGS= -std=c99 -Wall -O3
+CC=icc
+CFLAGS= -std=c99 -Wall -Ofast -mtune=native -xHOST -qopenmp -qopenmp-simd -fma
+REP= -qopt-report=5
 LIBS = -lm
 
 FINAL_STATE_FILE=./final_state.dat
@@ -23,3 +24,12 @@ check:
 
 clean:
 	rm -f $(EXE)
+
+report:
+	$(CC) $(CFLAGS) $(REP) $(EXE).c $(LIBS) -o $(EXE)
+
+debug:
+	$(CC) $(CFLAGS) -g -debug $(EXE).c $(LIBS) -o $@
+
+advisor:
+	advixe-cl --collect=roofline --project-dir=./advi -- ./debug input_128x128.params obstacles_128x128.dat
