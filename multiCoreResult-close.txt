@@ -1,0 +1,868 @@
+1\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:03:23 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263825
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756045341492E+00
+Elapsed Init time:			0.000682 (s)
+Elapsed Compute time:			6.484779 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			6.485461 (s)
+==done==
+Reynolds number:		3.716389465332E+01
+Elapsed Init time:			0.000919 (s)
+Elapsed Compute time:			15.038023 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			15.038942 (s)
+==done==
+Reynolds number:		1.006102943420E+01
+Elapsed Init time:			0.001644 (s)
+Elapsed Compute time:			56.997527 (s)
+Elapsed Collate time:			0.000001 (s)
+Elapsed Total time:			56.999172 (s)
+==done==
+Reynolds number:		3.376079559326E+00
+Elapsed Init time:			0.016700 (s)
+Elapsed Compute time:			283.957482 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			283.974182 (s)
+2\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:10:18 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263829
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000668 (s)
+Elapsed Compute time:			3.426110 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			3.426778 (s)
+==done==
+Reynolds number:		3.716386413574E+01
+Elapsed Init time:			0.000929 (s)
+Elapsed Compute time:			7.707627 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			7.708556 (s)
+==done==
+Reynolds number:		1.006104183197E+01
+Elapsed Init time:			0.001627 (s)
+Elapsed Compute time:			28.747180 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			28.748807 (s)
+==done==
+Reynolds number:		3.376076459885E+00
+Elapsed Init time:			0.016597 (s)
+Elapsed Compute time:			144.559926 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			144.576523 (s)
+3\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:15:22 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263830
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756045341492E+00
+Elapsed Init time:			0.000645 (s)
+Elapsed Compute time:			2.425701 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			2.426346 (s)
+==done==
+Reynolds number:		3.716389083862E+01
+Elapsed Init time:			0.000907 (s)
+Elapsed Compute time:			5.199288 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			5.200195 (s)
+==done==
+Reynolds number:		1.006104946136E+01
+Elapsed Init time:			0.001623 (s)
+Elapsed Compute time:			19.442097 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			19.443720 (s)
+==done==
+Reynolds number:		3.376062631607E+00
+Elapsed Init time:			0.016826 (s)
+Elapsed Compute time:			96.336392 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			96.353218 (s)
+4\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:19:23 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263832
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000698 (s)
+Elapsed Compute time:			1.851796 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.852494 (s)
+==done==
+Reynolds number:		3.716388702393E+01
+Elapsed Init time:			0.000905 (s)
+Elapsed Compute time:			4.030779 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			4.031684 (s)
+==done==
+Reynolds number:		1.006105804443E+01
+Elapsed Init time:			0.001632 (s)
+Elapsed Compute time:			14.690552 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			14.692184 (s)
+==done==
+Reynolds number:		3.376063823700E+00
+Elapsed Init time:			0.016485 (s)
+Elapsed Compute time:			73.250819 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			73.267304 (s)
+5\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:21:23 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263834
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000700 (s)
+Elapsed Compute time:			1.569189 (s)
+Elapsed Collate time:			0.000001 (s)
+Elapsed Total time:			1.569890 (s)
+==done==
+Reynolds number:		3.716389465332E+01
+Elapsed Init time:			0.000981 (s)
+Elapsed Compute time:			3.234613 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			3.235594 (s)
+==done==
+Reynolds number:		1.006105422974E+01
+Elapsed Init time:			0.001647 (s)
+Elapsed Compute time:			11.975890 (s)
+Elapsed Collate time:			0.000001 (s)
+Elapsed Total time:			11.977538 (s)
+==done==
+Reynolds number:		3.376062631607E+00
+Elapsed Init time:			0.016639 (s)
+Elapsed Compute time:			59.768438 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			59.785077 (s)
+6\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:23:24 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263835
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000692 (s)
+Elapsed Compute time:			1.325621 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.326313 (s)
+==done==
+Reynolds number:		3.716387557983E+01
+Elapsed Init time:			0.000966 (s)
+Elapsed Compute time:			2.758338 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			2.759304 (s)
+==done==
+Reynolds number:		1.006105232239E+01
+Elapsed Init time:			0.001636 (s)
+Elapsed Compute time:			10.091013 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			10.092649 (s)
+==done==
+Reynolds number:		3.376076698303E+00
+Elapsed Init time:			0.016779 (s)
+Elapsed Compute time:			51.355198 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			51.371977 (s)
+7\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:25:23 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263836
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000696 (s)
+Elapsed Compute time:			1.145641 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.146337 (s)
+==done==
+Reynolds number:		3.716387939453E+01
+Elapsed Init time:			0.000908 (s)
+Elapsed Compute time:			2.424054 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			2.424962 (s)
+==done==
+Reynolds number:		1.006104946136E+01
+Elapsed Init time:			0.001626 (s)
+Elapsed Compute time:			8.863570 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			8.865196 (s)
+==done==
+Reynolds number:		3.376076459885E+00
+Elapsed Init time:			0.016642 (s)
+Elapsed Compute time:			46.317197 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			46.333839 (s)
+8\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:27:23 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263838
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000646 (s)
+Elapsed Compute time:			1.003662 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.004308 (s)
+==done==
+Reynolds number:		3.716387176514E+01
+Elapsed Init time:			0.000901 (s)
+Elapsed Compute time:			2.146667 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			2.147568 (s)
+==done==
+Reynolds number:		1.006105136871E+01
+Elapsed Init time:			0.001611 (s)
+Elapsed Compute time:			7.779186 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			7.780797 (s)
+==done==
+Reynolds number:		3.376072168350E+00
+Elapsed Init time:			0.016471 (s)
+Elapsed Compute time:			42.057275 (s)
+Elapsed Collate time:			0.000001 (s)
+Elapsed Total time:			42.073747 (s)
+9\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:29:24 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263839
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756046295166E+00
+Elapsed Init time:			0.000676 (s)
+Elapsed Compute time:			0.943076 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.943752 (s)
+==done==
+Reynolds number:		3.716387176514E+01
+Elapsed Init time:			0.001053 (s)
+Elapsed Compute time:			1.970670 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.971723 (s)
+==done==
+Reynolds number:		1.006105136871E+01
+Elapsed Init time:			0.001611 (s)
+Elapsed Compute time:			7.053039 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			7.054650 (s)
+==done==
+Reynolds number:		3.376065254211E+00
+Elapsed Init time:			0.016557 (s)
+Elapsed Compute time:			39.545730 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			39.562287 (s)
+10\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:30:35 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263840
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000677 (s)
+Elapsed Compute time:			0.853530 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.854207 (s)
+==done==
+Reynolds number:		3.716387176514E+01
+Elapsed Init time:			0.000902 (s)
+Elapsed Compute time:			1.801926 (s)
+Elapsed Collate time:			0.000001 (s)
+Elapsed Total time:			1.802829 (s)
+==done==
+Reynolds number:		1.006104946136E+01
+Elapsed Init time:			0.001597 (s)
+Elapsed Compute time:			6.389379 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			6.390976 (s)
+==done==
+Reynolds number:		3.376070499420E+00
+Elapsed Init time:			0.017163 (s)
+Elapsed Compute time:			38.195006 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			38.212169 (s)
+11\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:33:23 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263841
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000709 (s)
+Elapsed Compute time:			0.787722 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.788431 (s)
+==done==
+Reynolds number:		3.716386795044E+01
+Elapsed Init time:			0.000941 (s)
+Elapsed Compute time:			1.662521 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.663462 (s)
+==done==
+Reynolds number:		1.006104850769E+01
+Elapsed Init time:			0.001626 (s)
+Elapsed Compute time:			5.906224 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			5.907850 (s)
+==done==
+Reynolds number:		3.376073122025E+00
+Elapsed Init time:			0.016908 (s)
+Elapsed Compute time:			37.166493 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			37.183401 (s)
+12\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:35:23 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263842
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000675 (s)
+Elapsed Compute time:			0.752059 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.752734 (s)
+==done==
+Reynolds number:		3.716387176514E+01
+Elapsed Init time:			0.000918 (s)
+Elapsed Compute time:			1.558755 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.559673 (s)
+==done==
+Reynolds number:		1.006104946136E+01
+Elapsed Init time:			0.001625 (s)
+Elapsed Compute time:			5.510298 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			5.511923 (s)
+==done==
+Reynolds number:		3.376072168350E+00
+Elapsed Init time:			0.016778 (s)
+Elapsed Compute time:			37.151058 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			37.167836 (s)
+13\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:37:23 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263843
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756042480469E+00
+Elapsed Init time:			0.000627 (s)
+Elapsed Compute time:			0.706358 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.706985 (s)
+==done==
+Reynolds number:		3.716387176514E+01
+Elapsed Init time:			0.000900 (s)
+Elapsed Compute time:			1.436405 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.437305 (s)
+==done==
+Reynolds number:		1.006105041504E+01
+Elapsed Init time:			0.001615 (s)
+Elapsed Compute time:			5.089276 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			5.090891 (s)
+==done==
+Reynolds number:		3.376067399979E+00
+Elapsed Init time:			0.016612 (s)
+Elapsed Compute time:			36.852718 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			36.869330 (s)
+14\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:39:23 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263844
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000686 (s)
+Elapsed Compute time:			0.688463 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.689149 (s)
+==done==
+Reynolds number:		3.716386795044E+01
+Elapsed Init time:			0.001063 (s)
+Elapsed Compute time:			1.338543 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.339606 (s)
+==done==
+Reynolds number:		1.006105136871E+01
+Elapsed Init time:			0.001618 (s)
+Elapsed Compute time:			4.884846 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			4.886464 (s)
+==done==
+Reynolds number:		3.376070499420E+00
+Elapsed Init time:			0.016465 (s)
+Elapsed Compute time:			37.359371 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			37.375836 (s)
+15\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:40:43 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263846
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756042480469E+00
+Elapsed Init time:			0.000699 (s)
+Elapsed Compute time:			0.805658 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.806357 (s)
+==done==
+Reynolds number:		3.716387176514E+01
+Elapsed Init time:			0.000912 (s)
+Elapsed Compute time:			1.475312 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.476224 (s)
+==done==
+Reynolds number:		1.006105136871E+01
+Elapsed Init time:			0.001649 (s)
+Elapsed Compute time:			4.989236 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			4.990885 (s)
+==done==
+Reynolds number:		3.376069545746E+00
+Elapsed Init time:			0.017060 (s)
+Elapsed Compute time:			34.877233 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			34.894293 (s)
+16\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:43:23 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263847
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756042480469E+00
+Elapsed Init time:			0.000685 (s)
+Elapsed Compute time:			0.761698 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.762383 (s)
+==done==
+Reynolds number:		3.716387176514E+01
+Elapsed Init time:			0.000913 (s)
+Elapsed Compute time:			1.269097 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.270010 (s)
+==done==
+Reynolds number:		1.006105136871E+01
+Elapsed Init time:			0.001633 (s)
+Elapsed Compute time:			4.575774 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			4.577407 (s)
+==done==
+Reynolds number:		3.376070976257E+00
+Elapsed Init time:			0.016489 (s)
+Elapsed Compute time:			32.971473 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			32.987962 (s)
+17\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:45:23 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263849
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000672 (s)
+Elapsed Compute time:			0.731247 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.731919 (s)
+==done==
+Reynolds number:		3.716386795044E+01
+Elapsed Init time:			0.000911 (s)
+Elapsed Compute time:			1.319726 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.320637 (s)
+==done==
+Reynolds number:		1.006104946136E+01
+Elapsed Init time:			0.001677 (s)
+Elapsed Compute time:			4.355525 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			4.357202 (s)
+==done==
+Reynolds number:		3.376069068909E+00
+Elapsed Init time:			0.016540 (s)
+Elapsed Compute time:			30.627428 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			30.643968 (s)
+18\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:47:23 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263850
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000676 (s)
+Elapsed Compute time:			0.738898 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.739574 (s)
+==done==
+Reynolds number:		3.716387176514E+01
+Elapsed Init time:			0.000912 (s)
+Elapsed Compute time:			1.200709 (s)
+Elapsed Collate time:			0.000001 (s)
+Elapsed Total time:			1.201622 (s)
+==done==
+Reynolds number:		1.006105041504E+01
+Elapsed Init time:			0.001687 (s)
+Elapsed Compute time:			4.082290 (s)
+Elapsed Collate time:			0.000001 (s)
+Elapsed Total time:			4.083978 (s)
+==done==
+Reynolds number:		3.376069068909E+00
+Elapsed Init time:			0.016938 (s)
+Elapsed Compute time:			26.501162 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			26.518100 (s)
+19\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:49:23 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263851
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756042480469E+00
+Elapsed Init time:			0.000669 (s)
+Elapsed Compute time:			0.707165 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.707834 (s)
+==done==
+Reynolds number:		3.716387176514E+01
+Elapsed Init time:			0.000911 (s)
+Elapsed Compute time:			1.157324 (s)
+Elapsed Collate time:			0.000001 (s)
+Elapsed Total time:			1.158236 (s)
+==done==
+Reynolds number:		1.006105136871E+01
+Elapsed Init time:			0.001689 (s)
+Elapsed Compute time:			3.878209 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			3.879898 (s)
+==done==
+Reynolds number:		3.376069068909E+00
+Elapsed Init time:			0.017003 (s)
+Elapsed Compute time:			25.968888 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			25.985891 (s)
+20\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:50:50 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263853
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756042480469E+00
+Elapsed Init time:			0.000707 (s)
+Elapsed Compute time:			0.699488 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.700195 (s)
+==done==
+Reynolds number:		3.716387176514E+01
+Elapsed Init time:			0.001056 (s)
+Elapsed Compute time:			1.147501 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.148557 (s)
+==done==
+Reynolds number:		1.006104946136E+01
+Elapsed Init time:			0.001726 (s)
+Elapsed Compute time:			3.779663 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			3.781389 (s)
+==done==
+Reynolds number:		3.376070261002E+00
+Elapsed Init time:			0.017133 (s)
+Elapsed Compute time:			21.857182 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			21.874315 (s)
+21\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:53:23 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263854
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000682 (s)
+Elapsed Compute time:			0.709575 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.710257 (s)
+==done==
+Reynolds number:		3.716387176514E+01
+Elapsed Init time:			0.000906 (s)
+Elapsed Compute time:			1.113845 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.114751 (s)
+==done==
+Reynolds number:		1.006105041504E+01
+Elapsed Init time:			0.001754 (s)
+Elapsed Compute time:			3.715177 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			3.716931 (s)
+==done==
+Reynolds number:		3.376070499420E+00
+Elapsed Init time:			0.016447 (s)
+Elapsed Compute time:			21.656765 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			21.673212 (s)
+22\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:55:23 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263856
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000680 (s)
+Elapsed Compute time:			0.685238 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.685918 (s)
+==done==
+Reynolds number:		3.716387176514E+01
+Elapsed Init time:			0.000907 (s)
+Elapsed Compute time:			1.067219 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.068126 (s)
+==done==
+Reynolds number:		1.006105041504E+01
+Elapsed Init time:			0.001733 (s)
+Elapsed Compute time:			3.530262 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			3.531995 (s)
+==done==
+Reynolds number:		3.376069545746E+00
+Elapsed Init time:			0.016578 (s)
+Elapsed Compute time:			16.604404 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			16.620982 (s)
+23\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:57:24 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263859
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756042480469E+00
+Elapsed Init time:			0.000687 (s)
+Elapsed Compute time:			0.673665 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.674352 (s)
+==done==
+Reynolds number:		3.716386795044E+01
+Elapsed Init time:			0.000919 (s)
+Elapsed Compute time:			1.032471 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.033390 (s)
+==done==
+Reynolds number:		1.006104946136E+01
+Elapsed Init time:			0.001767 (s)
+Elapsed Compute time:			3.444063 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			3.445830 (s)
+==done==
+Reynolds number:		3.376072406769E+00
+Elapsed Init time:			0.016401 (s)
+Elapsed Compute time:			15.800901 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			15.817302 (s)
+24\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 05:59:23 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263860
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000681 (s)
+Elapsed Compute time:			0.689828 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.690509 (s)
+==done==
+Reynolds number:		3.716387176514E+01
+Elapsed Init time:			0.001024 (s)
+Elapsed Compute time:			1.088046 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			1.089070 (s)
+==done==
+Reynolds number:		1.006105041504E+01
+Elapsed Init time:			0.001770 (s)
+Elapsed Compute time:			3.322385 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			3.324155 (s)
+==done==
+Reynolds number:		3.376070976257E+00
+Elapsed Init time:			0.017326 (s)
+Elapsed Compute time:			16.543338 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			16.560664 (s)
+25\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 06:00:56 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263861
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000697 (s)
+Elapsed Compute time:			0.728107 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.728804 (s)
+==done==
+Reynolds number:		3.716387176514E+01
+Elapsed Init time:			0.001031 (s)
+Elapsed Compute time:			1.008272 (s)
+Elapsed Collate time:			0.000001 (s)
+Elapsed Total time:			1.009304 (s)
+==done==
+Reynolds number:		1.006105041504E+01
+Elapsed Init time:			0.001774 (s)
+Elapsed Compute time:			3.204786 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			3.206560 (s)
+==done==
+Reynolds number:		3.376071214676E+00
+Elapsed Init time:			0.016892 (s)
+Elapsed Compute time:			14.266041 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			14.282933 (s)
+26\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 06:03:24 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263863
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000681 (s)
+Elapsed Compute time:			0.637073 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.637754 (s)
+==done==
+Reynolds number:		3.716386795044E+01
+Elapsed Init time:			0.001028 (s)
+Elapsed Compute time:			0.962669 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.963697 (s)
+==done==
+Reynolds number:		1.006105041504E+01
+Elapsed Init time:			0.001747 (s)
+Elapsed Compute time:			3.088511 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			3.090258 (s)
+==done==
+Reynolds number:		3.376070499420E+00
+Elapsed Init time:			0.016852 (s)
+Elapsed Compute time:			12.347262 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			12.364114 (s)
+27\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 06:05:24 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263865
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756043434143E+00
+Elapsed Init time:			0.000678 (s)
+Elapsed Compute time:			0.640952 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.641630 (s)
+==done==
+Reynolds number:		3.716386795044E+01
+Elapsed Init time:			0.000921 (s)
+Elapsed Compute time:			0.943860 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.944781 (s)
+==done==
+Reynolds number:		1.006105041504E+01
+Elapsed Init time:			0.001673 (s)
+Elapsed Compute time:			2.926819 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			2.928492 (s)
+==done==
+Reynolds number:		3.376071929932E+00
+Elapsed Init time:			0.016488 (s)
+Elapsed Compute time:			14.427668 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			14.444156 (s)
+28\n\n
+Running on host compute244.bc4.acrc.priv
+Time is Tue Mar 7 06:07:24 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11263867
+This job runs on the following machines:
+compute244
+==done==
+Reynolds number:		9.756042480469E+00
+Elapsed Init time:			0.000684 (s)
+Elapsed Compute time:			0.642037 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.642721 (s)
+==done==
+Reynolds number:		3.716387176514E+01
+Elapsed Init time:			0.000909 (s)
+Elapsed Compute time:			0.953190 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			0.954099 (s)
+==done==
+Reynolds number:		1.006105041504E+01
+Elapsed Init time:			0.001708 (s)
+Elapsed Compute time:			2.905433 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			2.907141 (s)
+==done==
+Reynolds number:		3.376070737839E+00
+Elapsed Init time:			0.017484 (s)
+Elapsed Compute time:			11.960222 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			11.977706 (s)
