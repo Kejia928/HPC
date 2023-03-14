@@ -1,0 +1,30 @@
+Running on host compute243.bc4.acrc.priv  -xAVX
+Time is Sun Mar 5 16:07:15 GMT 2023
+Directory is /user/home/iw19151/HPC_cw
+Slurm job ID is 11255973
+This job runs on the following machines:
+compute243
+==done==
+Reynolds number:		9.755502700806E+00
+Elapsed Init time:			0.001938 (s)
+Elapsed Compute time:			14.126922 (s)
+Elapsed Collate time:			0.000001 (s)
+Elapsed Total time:			14.128861 (s)
+==done==
+Reynolds number:		3.716384887695E+01
+Elapsed Init time:			0.002894 (s)
+Elapsed Compute time:			28.426565 (s)
+Elapsed Collate time:			0.000001 (s)
+Elapsed Total time:			28.429460 (s)
+==done==
+Reynolds number:		1.006101799011E+01
+Elapsed Init time:			0.003596 (s)
+Elapsed Compute time:			109.564755 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			109.568351 (s)
+==done==
+Reynolds number:		3.376664161682E+00
+Elapsed Init time:			0.032612 (s)
+Elapsed Compute time:			447.619097 (s)
+Elapsed Collate time:			0.000000 (s)
+Elapsed Total time:			447.651709 (s)
