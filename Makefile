@@ -23,3 +23,9 @@ check:
 
 clean:
 	rm -f $(EXE)
+
+debug:
+	$(CC) $(CFLAGS) -g -debug $(EXE).c $(LIBS) -o $@
+
+advisor:
+	advixe-cl --collect=roofline --project-dir=./advi -- ./debug input_128x128.params obstacles_128x128.dat
