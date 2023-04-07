@@ -1,0 +1,124 @@
+
+The following have been reloaded with a version change:
+  1) languages/intel/2020-u4 => languages/intel/2018-u3
+
+Running on host compute242.bc4.acrc.priv
+Time is Sun Mar 26 20:33:32 BST 2023
+Directory is /user/home/iw19151/HPC/mpi/example1
+Slurm job ID is 11315025
+
+This job runs on the following machines:
+compute[242-245]
+
+Hello, world; from host compute244.bc4.acrc.priv: process 57 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 59 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 30 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 86 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 61 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 33 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 88 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 63 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 36 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 94 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 64 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 37 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 97 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 70 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 7 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 40 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 98 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 71 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 9 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 44 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 102 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 74 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 10 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 49 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 103 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 78 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 14 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 28 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 107 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 80 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 15 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 29 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 108 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 81 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 22 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 32 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 84 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 83 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 23 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 34 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 85 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 58 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 25 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 35 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 87 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 60 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 26 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 38 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 89 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 62 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 27 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 39 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 90 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 65 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 1 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 41 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 91 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 66 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 2 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 42 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 92 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 67 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 3 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 43 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 93 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 68 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 4 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 45 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 96 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 69 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 6 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 46 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 99 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 72 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 8 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 47 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 100 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 73 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 11 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 48 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 101 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 75 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 12 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 50 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 104 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 76 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 13 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 51 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 105 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 77 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 16 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 52 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 106 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 79 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 17 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 53 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 109 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 82 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 18 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 54 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 110 of 112
+Hello, world; from host compute244.bc4.acrc.priv: process 56 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 19 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 55 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 111 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 20 of 112
+Hello, world; from host compute243.bc4.acrc.priv: process 31 of 112
+Hello, world; from host compute245.bc4.acrc.priv: process 95 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 21 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 24 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 5 of 112
+Hello, world; from host compute242.bc4.acrc.priv: process 0 of 112
