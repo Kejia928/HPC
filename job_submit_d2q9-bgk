@@ -8,7 +8,6 @@
 #SBATCH --account=COSC028844
 #SBATCH --output d2q9-bgk.out
 #SBATCH --cpus-per-task=1
-#SBATCH --mem-per-cpu=100M
 #SBATCH --exclusive 
 
 echo Running on host `hostname`
@@ -23,6 +22,6 @@ echo `echo $SLURM_JOB_NODELIST | uniq`
 
 #! Run the executable
 mpirun -np 112 ./d2q9-bgk input_128x128.params obstacles_128x128.dat
-#./d2q9-bgk input_128x256.params obstacles_128x256.dat
-# mpirun -np 112 ./d2q9-bgk input_256x256.params obstacles_256x256.dat
-# mpirun -np 112 ./d2q9-bgk input_1024x1024.params obstacles_1024x1024.dat
+mpirun -np 112 ./d2q9-bgk input_128x256.params obstacles_128x256.dat
+mpirun -np 112 ./d2q9-bgk input_256x256.params obstacles_256x256.dat
+mpirun -np 112 ./d2q9-bgk input_1024x1024.params obstacles_1024x1024.dat

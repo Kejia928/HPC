@@ -73,7 +73,7 @@ typedef struct
   float omega;         /* relaxation parameter */
   int tot_cells;        /* total number of cell */
   /* MPI param */
-  int size;
+  int np;
   int rank;
   int left;
   int right;
@@ -167,7 +167,7 @@ int main(int argc, char* argv[])
   float* recvResultBuffer = NULL;
 
   MPI_Init(&argc, &argv);
-  MPI_Comm_size(MPI_COMM_WORLD, &params.size);
+  MPI_Comm_size(MPI_COMM_WORLD, &params.np);
   MPI_Comm_rank(MPI_COMM_WORLD, &params.rank);
 
   /* parse the command line */
@@ -194,20 +194,23 @@ int main(int argc, char* argv[])
 
   for (int tt = 0; tt < params.maxIters; tt++){
     float u = timestep(params, &cells, &tmp_cells, obstacles, sendBuffer, recvBuffer);
+    //printf("No problem in calculation on %d \n", params.rank);
     if (params.rank == 0){
-      if (params.size > 1){
+      if (params.np > 1){ 
         MPI_Reduce(MPI_IN_PLACE, &u, 1, MPI_FLOAT, MPI_SUM, 0, MPI_COMM_WORLD);
       }
-  } else {
+    } else {
       MPI_Reduce(&u, NULL, 1, MPI_FLOAT, MPI_SUM, 0, MPI_COMM_WORLD);
-  }
-  av_vels[tt] = u / (float)params.tot_cells;
+    }
+    av_vels[tt] = u / (float)params.tot_cells;
 #ifdef DEBUG
     printf("==timestep: %d==\n", tt);
     printf("av velocity: %.12E\n", av_vels[tt]);
     printf("tot density: %.12E\n", total_density(params, cells));
 #endif
+    //printf("No problem in %d round on %d \n", tt, params.rank); 
   }
+  //printf("No problem in timestep on %d \n", params.rank);
   
   /* Compute time stops here, collate time starts*/
   gettimeofday(&timstr, NULL);
@@ -231,6 +234,7 @@ int main(int argc, char* argv[])
       }
     }
     MPI_Send(sendResultBuffer, (params.task_nx * params.task_ny * NSPEEDS), MPI_FLOAT, 0, 0, MPI_COMM_WORLD);
+    //printf("Send result on %d \n", params.rank);
   } else {
     /* Collect cell from master local */
     for (int jj = 0; jj < params.task_ny; jj++){
@@ -247,28 +251,26 @@ int main(int argc, char* argv[])
       }
     }
     /* Collect cell from other node */
-    if (params.size > 1) {
-      int task_nx = params.nx/params.size;
-      int startX = 0;
-      int remainder = params.nx % params.size;
-      for (int from = 1; from < params.size; from++){
+    if (params.np > 1) {
+      for (int from = 1; from < params.np; from++){
         /* Calculate the number of columns for each task */
+        int task_nx = params.nx/params.np;
+        int startX = 0;
+        int remainder = params.nx % params.np;
         if(remainder != 0){
           if (from < remainder){
             task_nx += 1;
+            startX = from * task_nx;
+          } else {
+            startX = from * task_nx + remainder;
           }
-        }
-        /* Calculate the start and end index of the columns */
-        // if the remainder is zero, directly multiply with rank
-        // if the task size is total size divide size plus, directly multiply with rank
-        if(remainder == 0 || task_nx == params.nx/params.size + 1) {
-          startX = from * task_nx;
         } else {
-        // this is only for the last task, if the remainder is not zero
-        // the start point need add remainder
-          startX = from * task_nx + remainder;
+          startX = from * task_nx;
         }
+        //printf("startX is %d and task_nx is %d \n", startX, task_nx);
+        
         MPI_Recv(recvResultBuffer, (params.task_ny * task_nx * NSPEEDS), MPI_FLOAT, from, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+        //printf("receive result from %d on %d \n", from, params.rank);
         for (int jj = 0; jj < params.ny; jj++){
           for (int ii = 0; ii < task_nx; ii++){
             result_cells->speed0[ii + startX + jj*params.nx] = recvResultBuffer[ii + jj*(task_nx) + (params.task_ny * task_nx * 0)];
@@ -282,9 +284,12 @@ int main(int argc, char* argv[])
             result_cells->speed8[ii + startX + jj*params.nx] = recvResultBuffer[ii + jj*(task_nx) + (params.task_ny * task_nx * 8)];
           }
         }
+        //printf("No problem on combination on %d from %d \n", params.rank, from);
       }
     }
   }
+
+  //printf("Finish combination");
 
   /* Total/collate time stops here.*/
   gettimeofday(&timstr, NULL);
@@ -301,8 +306,8 @@ int main(int argc, char* argv[])
     printf("Elapsed Total time:\t\t\t%.6lf (s)\n",   tot_toc  - tot_tic);
     write_values(params, result_cells, obstacles, av_vels);
   }
-  finalise(paramfile, obstaclefile, &params, &cells, &tmp_cells, &result_cells, &obstacles, &av_vels, &sendBuffer, &recvBuffer, &sendResultBuffer, &recvResultBuffer);
   MPI_Finalize();
+  finalise(paramfile, obstaclefile, &params, &cells, &tmp_cells, &result_cells, &obstacles, &av_vels, &sendBuffer, &recvBuffer, &sendResultBuffer, &recvResultBuffer);
   return EXIT_SUCCESS;
 }
 
@@ -678,17 +683,17 @@ int initialise(const char* paramfile,  const char* obstaclefile,
   if(params->rank != 0){
     params->left = params->rank - 1;
   } else {
-    params->left = params->size - 1;
+    params->left = params->np - 1;
   }
-  if(params->rank != params->size - 1){
+  if(params->rank != params->np - 1){
     params->right = params->rank + 1;
   } else {
     params->right = 0;
   }
 
   /* Calculate the number of columns for each task */
-  params->task_nx = params->nx/params->size;
-  int remainder = params->nx % params->size;
+  params->task_nx = params->nx/params->np;
+  int remainder = params->nx % params->np;
   if(remainder != 0){
     if (params->rank < remainder){
       params->task_nx = params->task_nx + 1;
@@ -699,7 +704,7 @@ int initialise(const char* paramfile,  const char* obstaclefile,
   /* Calculate the start and end index of the columns */
   // if the remainder is zero, directly multiply with rank
   // if the task size is total size divide size plus, directly multiply with rank
-  if(remainder == 0 || params->task_nx == params->nx/params->size + 1) {
+  if(remainder == 0 || params->task_nx == params->nx/params->np + 1) {
     params->startX = params->rank * params->task_nx;
   } else {
   // this is only for the last task, if the remainder is not zero
@@ -1002,6 +1007,7 @@ int finalise(const char* paramfile,  const char* obstaclefile,
     _mm_free((*result_cells)->speed6);
     _mm_free((*result_cells)->speed7);
     _mm_free((*result_cells)->speed8);
+    //printf("finish free result_cells on %d \n", params->rank);
   }
 
   _mm_free(*obstacles_ptr);
@@ -1020,6 +1026,7 @@ int finalise(const char* paramfile,  const char* obstaclefile,
   _mm_free(*recvResultBuffer);
   *recvResultBuffer = NULL;
 
+  //printf("free finished on %d \n", params->rank);
   return EXIT_SUCCESS;
 }
 
